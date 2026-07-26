@@ -1,8 +1,13 @@
 aid: enechain
 name: enechain
-description: 'enechain is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'enechain operates the largest energy exchange in Japan, offering trading
+  opportunities for wholesale electricity and environmental values across an over-the-counter
+  marketplace that connects energy market participants. Headquartered in Tokyo, the
+  company builds energy markets that help buyers and sellers discover prices, manage
+  risk, and trade power and environmental-value products, under the mission "Building
+  Energy Markets, Coloring Our Society." enechain was surfaced in the API Evangelist
+  network as a portfolio company of DCM Ventures; it publishes no public developer
+  API or documentation surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/enechain/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,32 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://storage.googleapis.com/production-os-assets/assets/01ab44ae-c7d7-467c-bc07-1b359dec7ff8
 tags:
 - Company
 - Enterprise
+- Energy
+- Energy Trading
+- Electricity
+- Environmental Value
+- Marketplace
+- Exchange
+- Commodities
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/enechain-domain-security.yml
 - type: Website
   url: https://enechain.co.jp/en/about
+- type: Blog
+  url: https://enechain.co.jp/en/news
+- type: Support
+  url: https://enechain.co.jp/en/contact
+- type: PrivacyPolicy
+  url: https://enechain.co.jp/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
